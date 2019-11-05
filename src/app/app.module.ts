@@ -27,7 +27,7 @@ import { CartService } from './cart.service';
     ProductDetailsComponent
   ],
   bootstrap: [ AppComponent ],
-  providers: [CartServiceService, CartService]
+  providers: [ CartService]
 })
 export class AppModule { }
 
